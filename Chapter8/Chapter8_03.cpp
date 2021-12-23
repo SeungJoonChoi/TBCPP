@@ -24,7 +24,7 @@ public:
 int main()
 {
 
-    Fraction one_thirds = Fraction{1, 3};
+    Fraction one_thirds{1, 3};
     one_thirds.print();
 
     return 0;
