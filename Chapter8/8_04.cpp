@@ -24,7 +24,11 @@ private:
 
 public:
     Something()
-        : m_i{1}, m_d{3.14}, m_c{'a'}, m_arr{1, 2, 3, 4, 5}, m_b(m_i - 1)
+        : m_i{1},
+         m_d{3.14},
+          m_c{'a'},
+           m_arr{1, 2, 3, 4, 5},
+            m_b(m_i - 1)
     {
     }
 
